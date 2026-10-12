@@ -1,0 +1,98 @@
+:root {
+    /* Main colours */
+    --color-mint: #A0F0BD;
+    --color-forest: #2E4F21;
+    --color-mint-soft: #D2F8DC;
+    --color-cloud: #F9F9F9;
+    --color-white: #FFFFFF;
+
+    /* Extra colours */
+    --color-mist: #D7FFE6;
+    --color-peach: #FBD4AB;
+    --color-rose: #C38181;
+    --color-sky: #5EA9FC;
+    --color-banner-fallback: #5A3A22;
+
+    /* Fonts */
+    --font-heading: 'Work Sans', Arial, sans-serif;
+    --font-text: 'Work Sans', Arial, sans-serif;
+
+    /* Spacing */
+    --space-xs: 8px;
+    --space-s: 16px;
+    --space-m: 32px;
+    --space-l: 64px;
+    --space-xl: 96px;
+
+    /* Radius */
+    --radius-chip: 8px;
+    --radius-card: 24px;
+    --radius-pill: 999px;
+}
+
+/* Universal reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global typography */
+body {
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-forest);
+    background-color: var(--color-mint);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0 var(--space-s);
+    font-family: var(--font-heading);
+    font-weight: 300;
+    line-height: 1.15;
+    color: inherit;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+p {
+    margin: 0 0 var(--space-s);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Global container */
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
+}
+
+/* Global links */
+a {
+    color: var(--color-forest);
+}
